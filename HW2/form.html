@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=1024, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+
+<body>
+  <h1> Profile edit page</h1>
+  <form action="formdata.php" method="post" name="form-name">
+    <fieldset>
+      <legend> Basic info </legend>
+      <p><label> ID <input type="text" name="name" size="50" maxlength="20"></label></p>
+      <p><label> First Name <input type="text" name="firstname" size="50" maxlength="20"></label></p>
+      <p><label> Last Name <input type="text" name="lastname" size="50" maxlength="30"></label></p>
+      <p><label> Password <input type="password" maxlength="25" size="50" name="password"></label></p>
+      <p><label> Phone <input type="tel" name="tel" placeholder="+38(xxx)-xxx-xx-xx" size="50"></label>
+      <p><label> Email <input type="email" name="email-address" size="50" placeholder="myemail@placeholder.com"></label></p>
+      <p><label><input type="checkbox" value="s"> Keep my email address private<br>
+        We'll remove your public profile email and use <br>
+        11978331+username@users.norepli.localhost</label>
+      <p><label> DOB <input type="date"></label></p>
+      <p><label> Blog url <input type="url" name="site" placeholder="http://"></label></p>
+      <p><label> About Me <textarea name="comment" rows="5" cols="40"></textarea></label></p>
+      <p><label> Profile picture </label> <input type="file" name="myFile" accept=".jpg, .jpeg, .png"></p>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend> Professional info </legend>
+      <p><label> Desire to study <input type="range" name="study"  min="0" max="10" step="1" value="10"></label></p>
+      <p><label> Experience
+          <select size="1" name="position" multiple>
+            <option value="first"> 1 </option>
+            <option value="second"> 2 </option>
+            <option value="third"> 3 </option>
+            <option value="fourth"> 4 </option>
+          </select> years
+        </label>
+      </p>
+      <p> Development Experience <br><br>
+        <label><input type="radio" name="experience" value="Learning"> Learning to Program </label><br>
+        <label><input type="radio" name="experience" value="Junior"> Junior Developer </label><br>
+        <label><input type="radio" name="experience" value="Mid-Level"> Mid-Level Developer </label><br>
+        <label><input type="radio" name="experience" value="Senior"> Senior Developer </label><br>
+      <p><select name="yourCountry" placeholder="Choose Your Country">
+          <option value="a"> Ukraine </option>
+          <option value="b"> USA </option>
+          <option value="c"> Thailand </option>
+          <option value="c"> Spain </option>
+        </select>
+      </p>
+      <p><label><input type="checkbox" value="HTML"> HTML </label><br>
+        <label><input type="checkbox" value="CCS"> CCS </label><br>
+        <label><input type="checkbox" value="g"> JavaScript </label><br>
+        <label><input type="checkbox" value="p"> R </label><br>
+        <label><input type="checkbox" value="g"> Scala </label><br>
+        <label><input type="checkbox" value="p"> Haskell </label><br>
+      </p>
+      <input type="hidden"name="#" value="#">
+    </fieldset><br>
+    <p><a href="#"> Cancel </a></p>
+    <button> Отправить</button>
+  </form>
+</body>
+</html>
