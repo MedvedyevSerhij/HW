@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=1024, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+
+<body>
+  <h1> Profile edit page</h1>
+  <form action="https://postman-echo.com" method="post">
+    <fieldset>
+      <legend> Basic info </legend>
+      <div><label> ID <input type="text" name="id" placeholder="111" disabled="disabled" size="50" maxlength="20"></label></div>
+      <div><label> First Name <input type="text" name="firstname" size="50" maxlength="20"></label></div>
+      <div><label> Last Name <input type="text" name="lastname" size="50" maxlength="30"></label></div>
+      <div><label> Password <input type="password" maxlength="25" size="50" name="password"></label></div>
+      <div><label> Phone <input type="tel" name="tel" placeholder="+38(xxx)-xxx-xx-xx" size="50"></label></div>
+      <div><label> Email <input type="email" name="email-address" size="50" placeholder="myemail@placeholder.com"></label></div>
+      <div><label><input type="checkbox" value="s"> Keep my email address private<br>
+        We'll remove your public profile email and use <br>
+        11978331+username@users.norepli.localhost</label></div>
+      <div><label> DOB <input type="date"></label></div>
+      <div><label> Blog url <input type="url" name="site" placeholder="http://"></label></div>
+      <div><label> About Me <textarea name="comment" rows="5" cols="40"></textarea></label></div>
+      <div><label> Profile picture </label> <input type="file" name="myFile" accept=".jpg, .jpeg, .png"></div>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend> Professional info </legend>
+      <div><label> Desire to study <input type="range" name="desire-to-study"  min="0" max="10" step="1" value="10"></label></div>
+      <div><label> Experience
+          <select size="1" name="experience">
+            <option value="1"> 1 </option>
+            <option value="2"> 2 </option>
+            <option value="3"> 3 </option>
+            <option value="4"> 4 </option>
+          </select> years
+        </label>
+      </div>
+      <div> Development Experience <br>
+        <label><input type="radio" name="dev-experience" value="Learning"> Learning to Program </label><br>
+        <label><input type="radio" name="dev-experience" value="Junior"> Junior Developer </label><br>
+        <label><input type="radio" name="dev-experience" value="Mid-Level"> Mid-Level Developer </label><br>
+        <label><input type="radio" name="dev-experience" value="Senior"> Senior Developer </label><br>
+        <div>
+          <label> Country
+            <select id="country" name="country" required>
+              <option disabled selected> Choose Your Country</option>
+              <option value="UA"> Ukraine</option>
+              <option disabled>------------------------------</option>
+              <option value="US"> USA</option>
+              <option value="TH"> Thailand</option>
+              <option value="ES"> Spain</option>
+            </select>
+          </label><br>
+          <label><input type="checkbox" value="HTML"> HTML </label><br>
+          <label><input type="checkbox" value="CCS"> CCS </label><br>
+          <label><input type="checkbox" value="JavaScript"> JavaScript </label><br>
+          <label><input type="checkbox" value="R"> R </label><br>
+          <label><input type="checkbox" value="Scala"> Scala </label><br>
+          <label><input type="checkbox" value="Haskell"> Haskell </label><br>
+        </div>
+        <input type="hidden" name="#" value="#">
+    </fieldset><br>
+<<<<<<< HEAD
+    <button type="reset"> Cancel </button>
+    <button type="submit"> Отправить </button>
+=======
+    <p><button type="cancel">Cancel</button></p>
+    <button> Отправить </button>
+>>>>>>> 881a006719b92ef270ec50a3d222b50d202aa55b
+  </form>
+</body>
+</html>
