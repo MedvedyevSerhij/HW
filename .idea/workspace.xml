@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a9f0f3-847f-478c-a65e-5be9e5ef6fa0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/Screenshot_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/Screenshot_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/Screenshot_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/images/arrow_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/images/arrow_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW3/images/arrow_top.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/index.html" afterDir="false" />
@@ -26,58 +19,77 @@
     <session id="209514806">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
-          <entry key="html" value="5" />
-          <entry key="png" value="8" />
+          <entry key="css" value="10" />
+          <entry key="html" value="7" />
+          <entry key="png" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="5" />
-          <entry key="Image" value="8" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1093" />
-          <entry key="html" value="472" />
+          <entry key="css" value="1283" />
+          <entry key="html" value="629" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1093" />
-          <entry key="HTML" value="472" />
+          <entry key="CSS" value="1283" />
+          <entry key="HTML" value="629" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2561">
-              <caret line="168" column="55" selection-start-line="168" selection-start-column="55" selection-end-line="168" selection-end-column="55" />
+            <state relative-caret-position="245">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW3/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="243">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/WEB/GeekHub1/Пример/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/WEB/GeekHub1/Пример/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="243" column="5" lean-forward="true" selection-start-line="243" selection-end-line="244" />
             </state>
           </provider>
         </entry>
@@ -98,10 +110,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="E:/WEB/GeekHub1/Пример/index.html" />
-        <option value="E:/WEB/GeekHub1/Пример/style.css" />
         <option value="E:/WEB/GeekHub/H.W.7new/css/reset.css" />
-        <option value="$PROJECT_DIR$/HW3/index.html" />
+        <option value="E:/WEB/GeekHub1/Пример/style.css" />
         <option value="$PROJECT_DIR$/HW3/css/main.css" />
+        <option value="$PROJECT_DIR$/HW3/index.html" />
       </list>
     </option>
   </component>
@@ -112,8 +124,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="707" />
-    <option name="width" value="658" />
+    <option name="x" value="553" />
+    <option name="width" value="807" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -155,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/WEB/GeekHub1/Пример" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -191,21 +203,22 @@
       <workItem from="1541335790895" duration="12012000" />
       <workItem from="1541357532136" duration="2206000" />
       <workItem from="1541436927655" duration="1056000" />
-      <workItem from="1541439659193" duration="27308000" />
+      <workItem from="1541439659193" duration="30778000" />
+      <workItem from="1541614911737" duration="12479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42582000" />
+    <option name="totallyTimeSpent" value="58531000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="707" y="0" width="658" height="728" extended-state="0" />
+    <frame x="553" y="0" width="807" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.32903227" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.32769832" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.34175083" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.34175083" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -276,34 +289,40 @@
     <entry file="file://$PROJECT_DIR$/HW3/images/eye.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://E:/WEB/GeekHub1/Пример/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5907">
-          <caret line="401" column="18" selection-start-line="401" selection-start-column="2" selection-end-line="401" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/WEB/GeekHub1/Пример/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2915">
-          <caret line="191" column="12" selection-start-line="191" selection-start-column="12" selection-end-line="191" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW3/images/arrow_top.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW3/index.html">
+    <entry file="file://$PROJECT_DIR$/HW3/images/foto.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/images/barcode.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://E:/WEB/GeekHub1/Пример/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2561">
-          <caret line="168" column="55" selection-start-line="168" selection-start-column="55" selection-end-line="168" selection-end-column="55" />
+        <state relative-caret-position="190">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/WEB/GeekHub1/Пример/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="243" column="5" lean-forward="true" selection-start-line="243" selection-end-line="244" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HW3/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="243">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
         </state>
       </provider>
     </entry>

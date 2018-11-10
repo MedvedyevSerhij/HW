@@ -96,6 +96,9 @@ header {
 	width: 100%;
 }
 .poster{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 	margin-top: -111px;
 	margin-bottom: 40px;
@@ -103,11 +106,14 @@ header {
 .slider a{
 	color: #ffffff;
 }
+.slider ul{
+	display: flex;
+	justify-content: center;
+}
 .slider li{
 	width: 92px;
 	height: 92px;
 	color: #ffffff;
-	display: inline-table;
 	background: #4D4D4D;
 	background: radial-gradient(circle at top left, transparent 10px, #4D4D4D 0) top left,
 	radial-gradient(circle at top right, transparent 10px, #4D4D4D 0) top right,
@@ -116,11 +122,21 @@ header {
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
 
-}
-.afisha{
+}.slider li:nth-child(3){
+     width: 92px;
+     height: 92px;
+     background: #E24927;
+     background: radial-gradient(circle at top left, transparent 10px, #E24927 0) top left,
+     radial-gradient(circle at top right, transparent 10px, #E24927 0) top right,
+     radial-gradient(circle at bottom right, transparent 10px, #E24927 0) bottom right,
+     radial-gradient(circle at bottom left, transparent 10px, #E24927 0) bottom left;
+     background-size: 50% 50%;
+     background-repeat: no-repeat;
+ }
+.slider li:nth-child(4) {
 	width: 464px;
 	height: 92px;
-	text-align: left;
+/*	text-align: left;    */
 	background: #E24927;
 	background: radial-gradient(circle at top left, transparent 10px, #E24927 0) top left,
 	radial-gradient(circle at top right, transparent 10px, #E24927 0) top right,
@@ -129,8 +145,23 @@ header {
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
 }
-.posterDay p{
+.arrowLeft{
+	width: 36px;
+	height: 36px;
+	margin-right: 20px;
+	background: #4D4D4D url(../images/arrow_left.png) no-repeat center;
+}
+.arrowRight{
+	width: 36px;
+	height: 36px;
+	margin-left: 20px;
+	background: #4D4D4D url(../images/arrow_right.png) no-repeat center;
+}
+p.posterDay{
 	font-size: 44px;
+}
+div.afisha img{
+	width: 15px;
 }
 
 
